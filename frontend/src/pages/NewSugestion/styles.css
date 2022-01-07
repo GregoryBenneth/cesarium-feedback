@@ -1,0 +1,47 @@
+
+.new-sugestion-container{
+    width:100%;
+     max-width:1120px;
+    height:100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-sugestion-container .content {
+    height:70vh ;
+    padding:80px ;
+    background:#EFEEF5; 
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.new-sugestion-container .content form{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+.new-sugestion-container .content section{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.new-sugestion-container .content section h1 {
+    width: 100%;
+    font-size: 32px;
+
+}
+
+.new-sguestion-container section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+

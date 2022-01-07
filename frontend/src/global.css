@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 400; 500; 700 & display = swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font: 400 14px Roboto, sans-serif;
+    background-color:#EFEEF5;
+    -webkit-font-smoothing: antialiased
+}
+
+input, button, textarea {
+    font: 400 15px Roboto, sans-serif;
+    padding: .5rem;
+    border-radius: .4rem;
+}
+input {
+    border:0.1px solid #ccc;
+    background-color:white;
+
+    
+     
+}
+textarea {
+    border:0.1px solid #ccc;
+    background-color:white;
+    min-height: 140px;
+    padding: 16px 24px;
+    line-height: 24px;
+    resize: vertical;
+}
+button {
+    cursor:pointer;
+    font-weight: 700;
+    background-color:#FF1616 ;
+    color:white;
+    transition: .1s;
+    
+}
+
+back-link:hover {
+    filter: brightness(65%)
+}
+
+
+.button {
+    cursor:pointer;
+    font-weight: 700;
+    background-color:#FF1616 ;
+    color:white;
+    padding: .5rem;
+    transition: .1s;
+    font: 400 18px Roboto, sans-serif;
+    border-radius: .4rem;
+}
+ a {
+    text-decoration: none;
+    color: black;
+    font: 700;
+}
